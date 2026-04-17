@@ -4,6 +4,10 @@ import { getFromLS, setToLS } from "../helpers/controlLocalStorage";
 
 const BASE_URL = import.meta.env.VITE_YEAHUB_API_URL;
 
+type RefreshResponse = {
+	access_token: string;
+};
+
 const baseQuery = fetchBaseQuery({
 	baseUrl: BASE_URL,
 	credentials: "include",
@@ -24,7 +28,9 @@ const baseQueryWithReauth: BaseQueryFn = async (args, api, extraOptions) => {
 		const refreshResults = await baseQuery("/auth/refresh", api, extraOptions);
 
 		if (refreshResults.data) {
-			setToLS("accessToken", refreshResults.data.access_token);
+			const { access_token } = refreshResults.data as RefreshResponse;
+
+			setToLS("accessToken", access_token);
 
 			result = await baseQuery(args, api, extraOptions);
 		} else {
