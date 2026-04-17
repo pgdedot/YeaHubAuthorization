@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import styles from "./AppLogo.module.css";
+import clsx from "clsx";
 
 interface Props {
 	navigateTo: string;
@@ -24,7 +25,9 @@ const AppLogo = ({
 				className={styles.logo}
 				style={{ width: width, height: height }}
 			/>
-			<p className={`${styles.text} ${styles[textClassName] ?? ""}`}>YeaHub</p>
+			<p className={clsx(styles.text, textClassName && styles[textClassName])}>
+				YeaHub
+			</p>
 		</NavLink>
 	);
 };
