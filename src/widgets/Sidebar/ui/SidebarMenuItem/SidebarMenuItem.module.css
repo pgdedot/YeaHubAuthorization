@@ -1,0 +1,83 @@
+.menuWrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	min-height: 44px;
+	padding: 0px 10px;
+	transition: all 0.8s;
+}
+
+.categoriesMenuWrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	min-height: 44px;
+	transition: all 0.8s;
+	cursor: pointer;
+}
+
+.menuWrapper:hover {
+	background-color: #f5f2f2;
+	border-radius: 10px;
+}
+
+.singleMenuLink {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.categoriesWrapper {
+	width: 100%;
+	padding: 0 10px;
+}
+
+.categoriesWrapper:hover {
+	width: 100%;
+	background-color: #f5f2f2;
+	border-radius: 10px;
+}
+
+.categoriesLinkWrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	padding: 0px 10px;
+	min-height: 44px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.itemsWrapper {
+	max-height: 500px;
+	transition: all 0.5s ease-out;
+}
+
+.hidden {
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.5s ease-out;
+}
+
+.categoriesWrapperOpen {
+	background-color: #f5f2f2;
+	border-radius: 10px;
+}
+
+.arrow {
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+
+.closeArrow {
+	transform: rotate(180deg);
+}

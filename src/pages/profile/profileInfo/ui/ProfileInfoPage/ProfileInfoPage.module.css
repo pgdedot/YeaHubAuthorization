@@ -1,0 +1,111 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 24px 20px;
+	background-color: #f8f8f8;
+	overflow-y: hidden;
+	box-sizing: border-box;
+}
+
+@keyframes shimmer {
+	0%,
+	100% {
+		opacity: 0.4;
+	}
+	50% {
+		opacity: 1;
+	}
+}
+
+.bone {
+	background: #ebebeb;
+	animation: shimmer 1.6s ease-in-out infinite;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	min-width: 740px;
+	max-width: 1200px;
+	padding: 24px;
+	box-sizing: border-box;
+	gap: 15px;
+	border-radius: 24px;
+	background-color: #fff;
+	box-shadow: 0 4px 10px 0 rgba(106, 99, 118, 0.1);
+}
+
+.card:not(:first-child) {
+	flex-direction: column;
+}
+
+.cardHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.userInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex: 1;
+	padding-top: 4px;
+}
+.lines {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.pills {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	flex-shrink: 0;
+}
+.btn {
+	width: 64px;
+	height: 32px;
+	border-radius: 8px;
+}
+.title {
+	width: 100px;
+	height: 20px;
+	border-radius: 6px;
+}
+.pill {
+	height: 40px;
+	border-radius: 12px;
+}
+
+.lineFull {
+	width: 100%;
+	height: 16px;
+	border-radius: 6px;
+}
+.lineWide {
+	width: 90%;
+	height: 16px;
+	border-radius: 6px;
+}
+.lineLg {
+	width: 180px;
+	height: 22px;
+	border-radius: 6px;
+}
+.lineMd {
+	width: 130px;
+	height: 16px;
+	border-radius: 6px;
+}
+.lineSm {
+	width: 100px;
+	height: 16px;
+	border-radius: 6px;
+}

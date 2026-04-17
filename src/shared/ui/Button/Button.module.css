@@ -1,0 +1,26 @@
+button{
+	cursor: pointer;
+}
+
+.primary {
+	border-radius: 12px;
+	padding: 14px 24px;
+	background-color: #6a0bff;
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.loginButton {
+	margin-top: 40px;
+}
+
+.deleteButton {
+	color: #f3164e;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	background: none;
+	border: none;
+	align-items: center;
+}

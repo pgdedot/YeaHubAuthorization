@@ -1,0 +1,15 @@
+.container {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: 76px 1fr;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.mainContent {
+	background: #f8f8f8;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	overflow: auto;
+	min-height: 0;
+}

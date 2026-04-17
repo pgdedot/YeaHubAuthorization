@@ -1,0 +1,94 @@
+.avatarFormWrapper {
+	display: flex;
+	align-items: flex-start;
+	gap: 110px;
+	align-self: stretch;
+	max-width: 1100px;
+}
+
+.sectionInfo {
+	display: flex;
+	flex-direction: column;
+	max-width: 240px;
+}
+
+.sectionHeader {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	margin: 0;
+}
+
+.sectionDescription {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120%;
+	margin: 0;
+	margin-top: 4px;
+}
+
+.avatarWrapper {
+	display: flex;
+	align-items: flex-start;
+	gap: 30px;
+	flex: 1 0 0;
+}
+
+.imageWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+.dropZone {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 188px;
+	width: 100%;
+	align-items: center;
+	gap: 12px;
+	border-radius: 20px;
+	border: 2px dashed #c39dff;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.dropZoneHint {
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
+}
+
+.dropZoneText {
+	color: #757575;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 0;
+}
+
+.dropZoneTextAccent {
+	color: #6a0bff;
+}
+
+.dropZoneFormats {
+	color: #a3a3a3;
+	text-align: center;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	margin: 0;
+}
+
+.fileName {
+	font-size: 12px;
+	color: #6a0bff;
+	margin: 0;
+}
+
+.hiddenInput {
+	display: none;
+}

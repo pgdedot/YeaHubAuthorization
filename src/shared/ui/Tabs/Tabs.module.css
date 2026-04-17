@@ -1,0 +1,41 @@
+.tabItem {
+	list-style: none;
+	max-height: 38px;
+	border-radius: 8px;
+	padding: 10px;
+	background: #f8f8f8;
+	align-items: center;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.tabItemLabel {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 110%;
+	color: #757575;
+	margin: 0;
+	padding: 0;
+}
+
+.tabItemActive {
+	background: #fff;
+}
+
+.tabItemActiveLabel {
+	color: #6a0bff;
+}
+
+.tabsWrapper {
+	display: flex;
+	width: fit-content;
+	flex-direction: row;
+	gap: 10px;
+	background-color: #fff;
+	background: #f8f8f8;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	max-height: 58px;
+	max-width: 722px;
+}

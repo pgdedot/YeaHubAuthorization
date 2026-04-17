@@ -1,0 +1,12 @@
+.textHeader {
+	margin: 0;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 120%;
+}
+
+.headerWrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

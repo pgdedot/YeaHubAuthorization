@@ -1,0 +1,29 @@
+.registerWrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: rgba(209, 209, 209, 0.27);
+	border-radius: 12px;
+	width: 100%;
+	padding: 16px;
+	box-sizing: border-box;
+	max-width: 408px;
+	margin-bottom: 40px
+}
+
+.registerText {
+	margin: 0;
+	padding: 0;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 127%;
+	color: #222;
+}
+
+.registerLink {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 127%;
+	color: #6212ff;
+  text-decoration: none;
+}

@@ -1,0 +1,88 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+	max-width: 408px;
+}
+
+.input {
+	width: 100%;
+	min-height: 48px;
+	border: 1px solid #e8e8e8;
+	border-radius: 12px;
+	padding: 12px 16px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.input::placeholder {
+	color: #bbbbc8;
+	line-height: 20px;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.input:focus {
+	border: 1px solid #883cff;
+}
+
+.input.error {
+	border: 1px solid #d50b3e;
+}
+
+.checkboxWrapper {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.checkbox {
+	display: none;
+}
+
+.checkboxWrapper {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+}
+
+.customCheckbox {
+	width: 20px;
+	height: 20px;
+	min-width: 20px;
+	border-radius: 3px;
+	background-color: #f0f0f0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.checkbox:checked + .customCheckbox {
+	background-color: #6a0bff;
+}
+
+.checkmark {
+	display: none;
+	color: white;
+	font-size: 17px;
+	font-weight: 900;
+}
+
+.checkbox:checked + .customCheckbox .checkmark {
+	display: block;
+}
+
+.agreeText {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 120%;
+	font-weight: 400;
+}
+
+.selectedText {
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	color: #6a0bff;
+}

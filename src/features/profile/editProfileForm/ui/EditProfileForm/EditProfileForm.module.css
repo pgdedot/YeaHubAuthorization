@@ -1,0 +1,61 @@
+.formWrapper {
+	display: flex;
+	width: 100%;
+	padding: 24px;
+	flex-direction: column;
+	gap: 40px;
+	border-radius: 24px;
+	box-sizing: border-box;
+	background: #fff;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 20px;
+	align-self: stretch;
+}
+
+.formTextHeader {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 120%;
+}
+
+.tabsWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background: #f8f8f8;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  max-height: 58px;
+  max-width: 722px;
+}
+
+.tabItem {
+  width: 180px;
+  height: 38px;
+  border-radius: 8px;
+}
+
+.pageTitle {
+  width: 260px;
+  height: 24px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.bone {
+  background: #EBEBEB;
+  border-radius: 6px;
+  animation: shimmer 1.6s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}

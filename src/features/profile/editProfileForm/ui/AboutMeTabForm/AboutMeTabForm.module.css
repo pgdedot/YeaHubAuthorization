@@ -1,0 +1,69 @@
+.wrapper {
+	display: flex;
+	align-items: flex-start;
+	gap: 120px;
+	align-self: stretch;
+}
+
+.formDescription {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120%;
+	margin: 0;
+}
+
+.formTextHeader {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 120%;
+	margin: 0;
+}
+
+.textWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	max-width: 246px;
+}
+
+@keyframes shimmer {
+	0%,
+	100% {
+		opacity: 0.4;
+	}
+	50% {
+		opacity: 1;
+	}
+}
+
+.bone {
+	background: #ebebeb;
+	border-radius: 6px;
+	animation: shimmer 1.6s ease-in-out infinite;
+}
+
+.title {
+	width: 180px;
+	height: 22px;
+}
+
+.descLine {
+	width: 100%;
+	height: 14px;
+}
+
+.descLineShort {
+	width: 60%;
+	height: 14px;
+}
+
+.areaBox {
+	width: 100%;
+	max-width: 706px;
+	height: 220px;
+	border-radius: 16px;
+	background: #ebebeb;
+	animation: shimmer 1.6s ease-in-out infinite;
+}

@@ -1,0 +1,29 @@
+.link{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+  align-items: center
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  width: 45px;
+  height: 45px;
+}
+
+.text{
+  color: #fff;
+  font-size: 36px;
+  margin: 0;
+  margin-top: 3px;
+  padding: 0;
+}
+
+.mainLayoutText{
+  font-size: 24px;
+  color: black;
+  font-weight: 900;
+}

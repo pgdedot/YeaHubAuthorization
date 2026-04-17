@@ -1,0 +1,9 @@
+.item{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  font-size: 16px;
+  color: #fff;
+  list-style: none;
+  gap: 10px;
+}

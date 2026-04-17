@@ -1,0 +1,27 @@
+.area {
+	display: block;
+	width: 100%;
+	max-width: 706px;
+	min-height: 200px;
+	border: none;
+	border-radius: 16px;
+	background: #fff;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 1.6;
+	resize: none;
+	outline: none;
+}
+
+.areaWrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 100%;
+	max-width: 706px;
+	max-height: 220px;
+	border-radius: 16px;
+	border: 1px solid #e8e8e8;
+	padding: 16px 16px 16px 16px;
+}

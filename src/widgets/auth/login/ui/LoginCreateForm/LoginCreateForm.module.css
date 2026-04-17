@@ -1,0 +1,26 @@
+.formWrapper {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	justify-content: space-between;
+	height: 100%;
+  width: 100%;
+}
+
+.socialText {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	color: #222;
+  margin-top: 20px;
+}
+
+.formSocialWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}

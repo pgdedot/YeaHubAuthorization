@@ -1,0 +1,45 @@
+.socialNetworkWrapper {
+	display: flex;
+	align-items: flex-start;
+	max-width: 1100px;
+	gap: 110px;
+	align-self: stretch;
+}
+
+.socialNetworks {
+	display: flex;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	flex-wrap: wrap;
+	gap: 20px;
+	width: 100%;
+}
+
+.socialNetwork {
+	max-width: 320px;
+	width: 100%;
+}
+
+.textHeader {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	margin: 0;
+}
+
+.textDescription {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120%;
+	margin: 0;
+	margin-top: 4px;
+}
+
+.textWrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 230px;
+}
+

@@ -1,0 +1,17 @@
+.selectLabel {
+	margin: 0;
+	color: #474747;
+	font-size: 14px;
+}
+
+.selectedSection {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.selectedList {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+}

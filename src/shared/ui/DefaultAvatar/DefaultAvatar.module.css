@@ -1,0 +1,7 @@
+.avatarWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #f4f4f4;
+	border-radius: 20px;
+}

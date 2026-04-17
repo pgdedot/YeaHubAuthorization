@@ -1,0 +1,15 @@
+.iconsWrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;  
+  padding: 0;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.listItem{
+  list-style: none;
+  cursor: pointer;
+}

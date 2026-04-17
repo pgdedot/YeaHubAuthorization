@@ -1,0 +1,36 @@
+.personalInfoWrapper {
+	display: flex;
+	height: 390px;
+	align-items: flex-start;
+	gap: 110px;
+	align-self: stretch;
+}
+
+.inputsWrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 24px;
+}
+
+.textHeader {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	margin: 0;
+}
+
+.textDescription {
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 120%;
+	margin: 0;
+	margin-top: 4px;
+}
+
+.textWrapper{
+	display: flex;
+	flex-direction: column;
+	max-width: 230px;
+}

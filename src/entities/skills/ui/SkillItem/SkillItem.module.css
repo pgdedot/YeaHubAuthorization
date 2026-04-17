@@ -1,0 +1,38 @@
+.skillItem {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 10px 12px;
+	border-radius: 12px;
+	border: 1px solid #6a0bff;
+	font-weight: 500;
+	box-sizing: border-box;
+}
+
+.deleteSkillBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #f3164e;
+	border-radius: 50%;
+	background: none;
+	color: #f3164e;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 0;
+}
+
+.image{
+  max-width: 20px;
+  max-height: 20px;
+  object-fit: cover;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
